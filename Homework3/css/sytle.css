@@ -1,0 +1,88 @@
+ html {
+     height: 100%;
+ }
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     min-height: 100%;
+     border: 3px solid blue;
+     background-image: url("../img/background.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+ }
+
+ .logo1 {
+     margin-top: 30px;
+     margin-left: 150px;
+
+ }
+
+
+
+.logo2 {
+    display: inline-block;
+}
+
+.Milan {
+    font-size: 29px;
+    line-height: 21px;
+    color: #ffffff;
+    font-family: Verdana;
+    font-weight: bold;
+
+}
+
+.Holidays {
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    font-family: "Verdana";
+    font-weight: bold;
+}
+
+
+.address {
+    float: right;
+    margin-right: 150px;
+    }
+
+.address p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    font-family: Verdana;
+
+}
+
+/* --SECTION --*/
+
+ .section { border: 2px dashed red;
+     lin
+
+
+
+ }
+ .section div {
+     margin: 70px;
+     display: inline;
+ }
+ .section img {
+     width: 351px;
+     height: 204px;
+
+ }
+
+ footer p {
+     margin-top: 40px;
+     font-size: 12px;
+     line-height: 21px;
+     color: #ffffff;
+     font-family: "Verdana";
+     text-align: center;
+ }
