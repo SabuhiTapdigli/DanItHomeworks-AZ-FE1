@@ -1,121 +1,135 @@
-*{
+* {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
+
 body {
     background-color: #ffffff;
 }
-
-.logo p {
-    color:#6fd5ff;
-    font-size: 40px;
-    margin-left: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+.container {
+    width: 1280px;
+    height: 1000px;
+    position: relative;
+    margin: auto;
 }
-.logo span {
+
+.icon {
+    font-size: 35px;
+    color: #000000;
+    font-family: "Myriad Pro";
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: #4bcaff;
+}
+
+.icon span {
     color: black;
 }
-.logo a {
-    text-decoration: none;
-}
-.menu {
-    clear:both;
-    background-color: #35444f;
-    margin-left: 100px;
-    margin-right: 100px;
+
+.navbar {
+    background-color: #3a4965;
 }
 
-.menu li {
-    display: inline-block;
-    padding: 13px;
-    margin-left: 50px;
-    margin-right: 50px;
-;
+.navbar ul{
+    text-align: center;
 }
-.menu li a {
+
+.navbar li {
+    display: inline-block;
+    padding: 5px;
+    height: 40px;
+}
+.navbar a{
+    text-decoration: none;
     font-size: 20px;
     color: #ffffff;
-    font-family: Myriad Pro;
-    text-decoration: none;
+    font-family: "Myriad Pro";
+    margin: 50px;
+}
+.navbar li:hover {
+    background-color: black ;
 }
 
-.navigation {
-    text-align: center;
-
-}
-
-.Ramda {
-    border-left: 2px solid #818181;
-    border-right: 2px solid #818181;
-}
-
-.section {
-    height: 800px;
-}
-.left {
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 100px;
-    font-size: 25px;
-    line-height: 60px;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-}
-.left li {
-    text-decoration: none;
-    list-style-type: none;
-    margin-left: 20px;
-}
-
-
-.Why-Ramda {
-    background-color: #;
-    padding-right: 40px;
-    padding-left: 40px;
-}
-
-.right {
-    float: right;
-    display: block;
-    margin-top: 50px;
-    margin-right: 100px;
+.left-side {
     border: 1px solid black;
-    text-align: center;
-
-}
-
-.right img {
-    margin: 50px 250px;
-
-    max-width: 40%;
-    max-height: 300px;
-}
-
-.writing {
-    float: right;
-    width: 55%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 100px;
-
-}
-
-.footer--menu ul{
     display: inline-block;
+    margin-top: 50px;
+    width: 18%;
+    height: 32%;
+
 
 }
-.footer--menu li {
-    float: left;
-    list-style-type: none;
-    margin-left: 10px;
-
-}
-.copyright {
-    float: right;
-
-}
-.copyright p{
+.left-side a {
     display: block;
+    font-size: 20px;
+    color: #35444f;
+    font-family: "Myriad Pro";
+    text-decoration: none;
+    padding: 20px;
+
+
 }
+
+.left-side a:hover  {
+    background-color: #4bcaff;
+    letter-spacing: 0.01em;
+}
+
+.main {
+    display: inline-block;
+    float: right;
+    border: 1px solid black;
+    width: 75%;
+    height: 48%;
+    margin-top: 50px;
+    text-align: center;
+    padding: 25px;
+
+}
+.main img {
+    padding: 10px;
+    margin: 10px;
+}
+
+.text {
+    display: inline-block;
+    width: 75%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 25%;
+}
+
+.footer {
+    background-color: #4bcaff;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+.footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+.footer p{
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+
+}
+.footer a:hover {
+    background-color: #89c331;
+}
+
+
+
+
