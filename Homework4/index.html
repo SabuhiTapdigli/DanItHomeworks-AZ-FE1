@@ -7,42 +7,68 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 <body>
+   <header class="header">
 
-   <header>
-       <div class="main">
-           <a href="#">
-               <p class="icon">JOURNEY </p>
-           </a>
-           <nav class="menu">
-               <a href="#"><img src="img/ic_caledar.png"></a>
-               <a href="#"><img src="img/ic_forum.png"></a>
-               <a href="#"><img src="img/ic_journey.png"></a>
-               <a href="#"><p>Welcome,</p></a>
-               <a href="#"><p><span>Login</span></p></a>
-               <a href="#"><p>or <span>Sign Up</span></p></a>
-           </nav>
-       </div>
+       <p class="logo">JOURNEY</p>
+
+           <ul class="sprite">
+               <li class="sprite-ic_caledar "><a href="#"></a> </li>
+               <li class="sprite-ic_forum"><a href="#"></a> </li>
+               <li class="sprite-ic_journey"><a href="#"></a> </li>
+               <li class="address"><a href="#">Welcome, <span>Log In</span> or <span>Sign Up</span></a> </li>
+           </ul>
 
    </header>
 
-  <!--Main Section-->
-
-   <section class="section">
+   <form>
        <div class="container">
-           <div>
-               <a href="#">
-                   <p> Sign Up</p>
-               </a>
+           <div class="top">
+                <div class="square"></div>
+                  <p class="Sign">Sign Up</p>
+                  <p class="login">Log In</p>
            </div>
-           <p>Log In</p>
-           <button class="fa fa-facebook"><a class="btn1" href="#">Facebook</a> </button>
-           <button class="fa fa-google"><a class="btn2"  href="#">Google</a> </button>
+
+           <div class="btn">
+               <button class="facebook"><i class="fab fa-facebook-f"></i>  Facebook</button>
+               <button class="google"><i class="fab fa-google"></i>  Google</button>
+           </div>
+
+
+
+           <label class="data">
+                <input type="text" placeholder="First Name">
+           </label>
+
+           <label  class="data">
+               <input type="text" placeholder="Last Name">
+           </label>
+
+           <label  class="data">
+               <input type="text" placeholder="Email">
+           </label>
+
+           <label  class="data">
+               <input type="password" placeholder="Choose Password">
+           </label>
+
+           <label  class="data">
+               <input type="password" placeholder="Repeat Password">
+           </label>
+
+           <label class="checkbox">
+               <input type="checkbox" checked="checked" name="remember"> Agree Our <span style="color: green">Terms & Conditions</span>
+           </label>
+
+               <div>
+                   <button class="btn-2">Create Account</button>
+               </div>
 
        </div>
-   </section>
+
+   </form>
 
 </body>
 </html>

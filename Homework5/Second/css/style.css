@@ -15,6 +15,7 @@ table, tr, th, td {
 table {
     width: 100%;
     height: 680px;
+    background-color: white;
 }
 th {
     height: 120px;
@@ -55,13 +56,21 @@ td{
 
 }
 
+
 th:nth-child(even) {
     background-color:#e3e3e3;
 }
 th:nth-child(odd) {
     background-color:#fafafa;
 }
-td:nth-child(even) {
+.row--2 td:first-child {
+    font-size: 20px;
+    font-family: Arimo;
+    font-weight: 700;
+    text-align: center;
+    background-color: #89c331 ;
+}
+td:nth-child(2n+2) {
     background-color:#e3e3e3;
     font-size: 16px;
     line-height: 24px;
@@ -69,7 +78,7 @@ td:nth-child(even) {
     font-weight: 400;
     text-align: center;
 }
-td:nth-child(odd) {
+td:nth-child(2n+3) {
     background-color: #fafafa;
     font-size: 16px;
     line-height: 24px;
@@ -77,32 +86,23 @@ td:nth-child(odd) {
     font-weight: 400;
     text-align: center;
 }
-.col1 {
-    font-size: 20px !important;
-    color: #ffffff !important;
-    font-family: Arimo !important;
-    font-weight: 700 !important;
-    text-align: center !important;
-    background-color: #89c331 !important;
+
+.row--3 td:first-child {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Arimo;
+    font-weight: 700;
+    text-align: center;
+    background-color: #f04a56 ;
 
 }
-
-.col2 {
-    font-size: 20px !important;
-    color: #ffffff !important;
-    font-family: Arimo !important;
-    font-weight: 700 !important;
-    text-align: center !important;
-    background-color: #f04a56 !important;
-
-}
-.col3{
-    font-size: 20px !important;
-    color: #ffffff !important;
-    font-family: Arimo !important;
-    font-weight: 700 !important;
-    text-align: center !important;
-    background-color: #20807c !important;
+.row--4 td:first-child{
+    font-size: 20px ;
+    color: #ffffff ;
+    font-family: Arimo;
+    font-weight: 700;
+    text-align: center;
+    background-color: #20807c;
 }
 
 .button {
@@ -164,7 +164,4 @@ td:nth-child(odd) {
     background-color: red;
     color:#ffffff;
     cursor: pointer;
-}
-.row--1 p{
-    color:#848484;
 }

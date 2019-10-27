@@ -7,104 +7,173 @@
 body {
     background-image: url("../img/rana-sawalha-364253-unsplash.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed ;
     background-position: center;
 
 }
 
-header {
-    width: 1450px;
-    height: 50px;
-    background-color: #000000;
-    opacity: 0.7;
-}
+.header {
+    overflow: auto;
+    background-color: rgba(1,1,1, .4);
+    height:35px;
+    margin-bottom: 50px;
 
-.icon {
+
+}
+.logo {
+    display: inline-block;
     float: left;
-    margin-left: 40px;
-    margin-top: 15px;
-    font-size: 20px;
-    line-height: 21px;
+    margin-top: 8px;
+    margin-left: 30px;
+    font-size: 15px;
     color: white;
     font-family: "Verdana";
     font-weight: bold;
+    cursor: pointer;
+
+
 }
-.icon:hover{
-    color:#3cb878;
+.logo:hover {
+    color: green;
 }
-.menu p {
-    margin-left: 5px;
-    display:inline;
-    font-size: 14px;
-    color: #ffffff;
-    font-family: Verdana;
+.sprite{
+    float: right;
+}
+.sprite li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.sprite a{
     text-decoration: none;
+    color: white;
+
+
+}
+span {
+    color: green;
+}
+.sprite-ic_caledar {
+    width: 20px;
+    height: 23px;
+    background: url(../img/spritesheet.png)-9px -9px;
 }
 
-.menu {
-    margin-left: 900px;
-    text-decoration: none;
-}
-.menu img {
-    margin-top: 12px;
-    margin-right: 15px;
-}
-.menu img:hover {
-    color:#3cb878;
+.sprite-ic_forum {
+    width: 30px;
+    height: 23px;
+    background: url(../img/spritesheet.png) -48px -9px;
 }
 
-.menu span {
-    color:green;
+.sprite-ic_journey {
+    width: 21px;
+    height: 22px;
+    background: url(../img/spritesheet.png) -96px -10px;
 }
 
-.section {
-    margin: 80px 400px;
-    padding: 300px;
-    border: 3px white solid ;
-    background-color: #ffffff ;
-    border-radius: 20px;
+.sprite-ic_caledar:hover{
+    background: url("../img/spritesheet (1).png") -4px -4px;
+    cursor: pointer;
 }
+.sprite-ic_forum:hover {
+    background: url("../img/spritesheet (1).png")-33px -4px;
+    cursor: pointer;
+}
+.sprite-ic_journey:hover{
+    background: url("../img/spritesheet (1).png") -71px -5px;
+    cursor: pointer;
+}
+
 .container {
-    float: left;
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+.square {
+    height: 15px;
+    width: 20px;
+    background-color: green;
+    display: inline-block;
+    margin-top: 30px;
 }
 
+.Sign {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.login {
+    display: inline-block;
+    font-size: 15px;
+    color: green;
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    border: none;
+    cursor: pointer;
+}
 
-.fa-facebook {
-    background-color:#254b95;
-    color: white;
-    width: 157px;
-    height: 46px;
+.facebook {
+    width: 38%;
+    height: 40px;
+    background-color: blue;
     border-radius: 5px;
-
-}
-.btn1, .btn2 {
-    text-decoration: none;
     color: white;
-    margin-left: 35px;
-    font-family:Verdana;
-
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
 }
 
-.fa-google {
-    background: #dd4b39;
-    color: white;
-    width: 157px;
-    height: 46px;
+.facebook:hover{
+    background-color: black;
+}
+.google {
+    width: 38%;
+    height: 40px;
+    background-color: red;
     border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.google:hover {
+    background-color: black;
+}
 
-
-.fa {
-    padding: 15px;
-    font-size: 16px;
-    line-height: 21px;
-    color: #ffffff;
-    width: 100px;
+.btn {
+    margin-top: 15px;
     text-align: center;
-    margin: 5px 5px;
-
+    margin-left: 2px;
+}
+label {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
 
 }
-.fa:hover {
-    opacity: 0.7;
+.data input {
+    height: 40px;
+    width: 85%;
+    margin-left: 10px;
+}
+.btn-2 {
+    color: white;
+    width: 75%;
+    height: 40px;
+    background-color: green;
+    margin-bottom: 30px;
+    border:none;
+    cursor: pointer;
+    margin-left: 50px;
+
+}
+
+.btn-2:hover {
+    background-color: black;
 }

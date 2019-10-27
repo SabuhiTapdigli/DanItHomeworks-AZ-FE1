@@ -29,62 +29,51 @@ td {
     color: #484848;
     font-family: "Arimo";
     font-weight: 400;
+}
 
-}
-p {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.Choose {
-    color: #484848;
-    font-size: 18px;
+th {
     line-height: 28px;
     font-family: Arimo;
     font-weight: 700;
     text-align: center;
+}
+
+th:hover, td:hover{
+     background-color: aquamarine;}
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Choose {
+    color: #484848;
+    font-size: 18px;
 }
 
 .Pricing {
     color:#484848;
     font-size: 30px;
-    line-height: 28px;
-    font-family: Arimo;
-    font-weight: 700;
-    text-align: center;
+
 }
 .Standard {
     font-size: 24px;
-    line-height: 28px;
     color: #ffffff;
-    font-family: Arimo;
-    font-weight: 700;
-    text-align: center;
     background-color: #89c331;
 }
 .Ultimate {
     font-size: 30px;
-    line-height: 28px;
     color: #ffffff;
-    font-family: Arimo;
-    font-weight: 700;
-    text-align: center;
     background-color: #f04a56;
 }
 .Premium {
     font-size: 24px;
-    line-height: 28px;
     color: #ffffff;
-    font-family: Arimo;
-    font-weight: 700;
-    text-align: center;
     background-color: #20807c;
 }
 .price {
     font-size: 60px;
-    line-height: 28px;
     color: #484848;
-    font-family: Arimo;
-    font-weight: 700;
     background-color: white;
 }
 sub {
