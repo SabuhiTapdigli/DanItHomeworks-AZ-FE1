@@ -1,0 +1,45 @@
+
+
+#titles {
+    position: absolute;
+    width: 18em;
+    height: 25em;
+    bottom:0;
+    left: 50%;
+    margin-left: -9em;
+    font-size: 350%;
+    text-align: center;
+    overflow: hidden;
+    transform-origin: 50% 100%;
+    transform: perspective(300px) rotateX(25deg);
+}
+
+#titles:after{
+    position: absolute;
+    content:'';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 60%;
+}
+
+#title p{
+    text-align: justify;
+    margin: 0.8em 0;
+}
+
+
+#titles a {
+    color: #ff6;
+    text-decoration: underline;
+}
+
+#titlecontent {
+    position:absolute;
+    top:100%;
+    animation: scrool 50s linear 2s infinite;
+}
+@keyframes scrool {
+    0% {top:100%}
+    100% {top:-150%}
+}
