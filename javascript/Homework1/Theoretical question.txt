@@ -1,0 +1,9 @@
+1. Explain in your own words the difference between declaring variables via var, let and const.
+2. Why is declaration of a variable via var considered a bad tone?
+
+1.Answer: The difference between var, let, and const are the following.
+  a) var is globally or function scoped declaration method while let and const are block-scoped.
+  b) var can be updated and re-declared again, however, let can be updated but nor re-declared while const neither updated nor re declared.
+  c) both var and let can be declared without intinizaling, however, const not.
+
+2. Answer: For instance, if we declare var inside global scope and function scope it will give us some bugs in our code that's why we need to let and const are important.
