@@ -1,4 +1,3 @@
-
 function createNewUser(firstname,lastname) {
     return {
         firstname,

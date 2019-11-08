@@ -1,0 +1,4 @@
+1. Describe in your own words what the functions in programming are for.
+2. Describe in your own words what is the reason why arguments are defined in a function. Why are they passed when a function is called?
+
+1. Answer: 
