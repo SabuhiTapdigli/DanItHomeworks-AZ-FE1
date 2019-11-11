@@ -1,0 +1,5 @@
+1. Explain in your own words what the object method is?
+1. Answer: If we consider the car is object the model, weight, color, are its properties, however start, stop , drive are its methods. 
+In Java Script  everything are almost objects. if we define the booleans, numbers, string with new keyword then they can be object as well.
+Methods in object is considered actions which is performed on object. An object method is an object property containing
+a function definition.

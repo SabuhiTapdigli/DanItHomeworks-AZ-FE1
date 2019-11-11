@@ -1,4 +1,5 @@
 1. Describe in your own words what the functions in programming are for.
 2. Describe in your own words what is the reason why arguments are defined in a function. Why are they passed when a function is called?
-
-1. Answer: 
+1. Answer: The function is the block codes which has some role. Let's imagine we have a application and inside we have different functions. For instance, in order to delete or copy or paste something we need to use different functions named delete, copy, paste. In other words, if we have block of codes which we will use many times in our work then we need funtions.
+2. Answer : There are two important things in funtions parameters and arguments.
+Parameters are written inside the function definition, however, arguments are the values passed to the function. The functions do not work without checking the passed arguments.
