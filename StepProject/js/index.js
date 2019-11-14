@@ -1,0 +1,13 @@
+const tabsHeader = $('.tabs-header');
+const tabsItems = $ ('.tabs-content-item');
+const tabsItemsContainer = $ ('.tabs-content');
+
+
+tabsHeader.on('click', '.tabs-header-item', function () {
+    tabsItemsContainer.css({
+        height: tabsItemsContainer.height()
+    });
+    $('.active').removeClass('active');
+    $(this).addClass('active');
+    $(tabsItems[$(this).index()]).addClass('active');
+});
