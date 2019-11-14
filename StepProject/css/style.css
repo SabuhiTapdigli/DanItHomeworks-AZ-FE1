@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
 }
 .top--section {
     background-image: url("../img/Layer 1.png");
@@ -272,6 +272,237 @@ body {
 }
 /*----OUR AMAZING WORK---*/
 
+.our_amazing_work .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.our_amazing_work h2 {
+    margin: 80px 0 120px 0;
+    font-size: 28px;
+}
+
+.our_amazing_work h2::before {
+    content: '';
+    height: 1px;
+    width: 75px;
+    display: block;
+    background-color: #18cfab;
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+
+.our_amazing_work h2::after {
+    content: '';
+    height: 1px;
+    width: 75px;
+    display: block;
+    background-color: #18cfab;
+    position: relative;
+    top: 35px;
+    left: 105px;
+}
+
+#works {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#works div {
+    display: flex;
+    height: 55px;
+    background-color: #f8fcfe;
+    border-top: 1px solid #eff0f1;
+    border-bottom: 1px solid #eff0f1;
+    border-right: 1px solid #eff0f1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 20px 0 20px;
+}
+
+#works div:first-child {
+    border-left: 1px solid #eff0f1;
+}
+
+#active_work {
+    color: #18cfab;
+}
+
+.works_photo {
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.works_photo div {
+    width: 285px;
+    height: 206px;
+}
+
+.our_amazing_work button {
+    width: 165px;
+    height: 60px;
+    background-color: #18cfab;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: none;
+    margin-top: 75px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*.title-4 {*/
+/*    text-align: center;*/
+/*    margin: 100px;*/
+/*    color: #898989;*/
+
+/*}*/
+/*.title-4::before{*/
+/*    content: '';*/
+/*    height: 1px;*/
+/*    width: 75px;*/
+/*    display: block;*/
+/*    background-color: #18cfab;*/
+/*    position: relative;*/
+/*    top: 50px;*/
+/*    left: 450px;*/
+/*}*/
+/*.title-4::after {*/
+/*    content: '';*/
+/*    height: 1px;*/
+/*    width: 75px;*/
+/*    display: block;*/
+/*    background-color: #18cfab;*/
+/*    position: relative;*/
+/*    top: 30px;*/
+/*    left: 470px;*/
+/*}*/
+/*.categories {*/
+/*    text-align: center;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+
+/*}*/
+
+/*.category-item {*/
+/*    display: inline-block;*/
+/*    padding: 10px 15px;*/
+/*    border: 1px solid lightgrey;*/
+/*    background-color: white;*/
+/*    color: black;*/
+/*    margin-bottom: 30px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+
+
+/*.relative {*/
+/*    position: relative;*/
+/*}*/
+
+/*.loader {*/
+/*    position: absolute;*/
+/*    background-color: #fff;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    z-index: 10;*/
+/*    display: none;*/
+/*}*/
+
+/*.loader:before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*    border-radius: 100%;*/
+/*    border: 2px solid limegreen;*/
+/*    border-right-color: transparent;*/
+/*    animation: spin 2s infinite;*/
+/*    top: calc(50% - 20px);*/
+/*    left: calc(50% - 20px);*/
+/*}*/
+
+/*@keyframes spin {*/
+/*    from {*/
+/*        transform: rotate(0deg);*/
+/*    }*/
+/*    to {*/
+/*        transform: rotate(360deg);*/
+/*    }*/
+/*}*/
+
+/*.grid-wrapper {*/
+/*    margin-top: 30px;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.grid {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+/*.project-item {*/
+/*    width: calc(100% / 4);*/
+/*    position: relative;*/
+/*    height: 200px;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.project-item>img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*    object-position: center;*/
+/*}*/
+
+/*.project-item--hover {*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    background-color: #fff;*/
+/*    transition: all .4s ease-out;*/
+/*    opacity: 0;*/
+/*}*/
+
+/*.project-item:hover .project-item--hover {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.text-center {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.load-more {*/
+/*    display: inline-block;*/
+/*    padding: 10px 15px;*/
+/*    text-transform: uppercase;*/
+/*    margin-top: 30px;*/
+/*    color: black;*/
+/*}*/
