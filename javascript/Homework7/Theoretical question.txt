@@ -1,0 +1,3 @@
+1.Explain in your own words how you understand what is Document Object Model (DOM)
+Answer: DOM is considered World Wide Web Consortium standard and it gives opportunities to access the document. 
+DOM defines the Html elements as an object. Accessing to properties of all Html elements, and Methods and Events for all Html elements
