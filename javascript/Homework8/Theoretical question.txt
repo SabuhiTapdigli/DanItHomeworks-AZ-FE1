@@ -1,0 +1,5 @@
+1.Explain in your own words how you understand what an event handler is?
+Answer: Due to apply user actions, input etc. on web page needs to use event handlers. For instance, if we want to see some action when page loads or is closed
+or when user click a button, press some keyboard , add some data in a given field we need to apply some event such as onclick,onchange,onmouseover
+onload and etc.
+
