@@ -37,9 +37,10 @@
             color: grey;
         }
 
-        .btn{
+        #btn{
             width: 150px;
         }
+
 
     </style>
 </head>
@@ -47,15 +48,16 @@
 <form class="password-form" action="#" type="POST">
     <label class="input-wrapper">
         Enter password
-        <input type="password"/>
-        <i class="fas fa-eye icon-password Enter"></i>
+        <input type="password" id="first">
+        <i class="fas fa-eye" id="eye"></i>
     </label>
     <label class="input-wrapper">
         Confirm password
-        <input type="password"/>
-        <i class="fas fa-eye-slash icon-password"></i>
+        <input type="text" id="second">
+        <i class="fas fa-eye-slash" id="open-eye"></i>
     </label>
-    <button type="submit" class="btn">Confirm</button>
+    <button type="submit" id="btn" onclick="myFunction()">Confirm</button>
+    <span id="span"></span>
 </form>
 <script src="js/index.js"></script>
 </body>
