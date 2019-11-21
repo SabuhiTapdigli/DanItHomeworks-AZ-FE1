@@ -1,13 +1,14 @@
-function filterBy (arr,data) {
+function filterBy (arr,type) {
+    let array = [];
     for (let i=0; i<arr.length; i++) {
-        if (typeof arr[i] == typeof data) {
-            delete arr[i];
+        if (typeof arr[i] !==type) {
+            array.push(arr[i]);
         }
 
     }
-    return arr;
+    return array;
 }
-let array =[12,24,"string"];
-let data = 12;
-console.log(filterBy(array,data));
+let array =[12,24,'Sabuhi'];
+let type = 'string';
+console.log(filterBy(array,type));
 
