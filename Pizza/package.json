@@ -20,8 +20,5 @@
     "gulp-js-minify": "0.0.3",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2"
-  },
-  "dependencies": {
-    "set-default-browser": "^1.0.1"
   }
 }

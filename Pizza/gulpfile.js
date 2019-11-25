@@ -52,5 +52,3 @@ const refreshPage = (done) => {
 
 gulp.task('build', gulp.series(cleanDist, sassBuild, jsBuild, imgBuild));
 gulp.task('dev', refreshPage);
-
-
