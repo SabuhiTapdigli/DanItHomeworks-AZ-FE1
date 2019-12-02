@@ -1,9 +1,20 @@
-const tabsHeader = $('.tabs-header');
-const tabsItems = $ ('.tabs-content-item');
+let tabsTitle = document.querySelectorAll('.tabs-title');
+let tabsContentItem = document.querySelectorAll('.tabs-content-item');
+for (let i=0; i<tabsTitle.length; i++) {
+    tabsTitle[i].dataset.index =i;
+    tabsContentItem[i].dataset=i;
+    tabsTitle[i].addEventListener('click', function () {
+        tabsTitle.forEach(function (e) {
+            e.classList.remove('active');
 
-tabsHeader.on('click', '.tabs-title', function () {
-    $('.active').removeClass('active');
-    $(this).addClass('active');
-    $(tabsItems[$(this).index()]).addClass('active');
-});
+        });
+        tabsContentItem.forEach(function (e) {
+            e.style.display='none';
+        })
+        tabsContentItem[i].style.display='block';
+        tabsTitle[i].classList.add('active');
+    });
+}
+
+
 
