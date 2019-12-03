@@ -1,6 +1,4 @@
 
-
-
 let pictures = document.querySelectorAll('.image-to-show');
 let stopbtn=document.querySelector('#Stop-btn');
 let resumebtn=document.querySelector('#Resume-btn');
@@ -16,7 +14,12 @@ function showimage(){
     index++;
     if(index > pictures.length) {index=1}
     pictures[index-1].style.display ='block';
-
+    let time = setTimeout(showimage,2000);
+    stopbtn.addEventListener('click', ()=>{
+        clearTimeout(time)
+    });
+    resumebtn.addEventListener('click',()=>{
+        setTimeout(showimage,1000)
+    })
 
 }
-let timer = setInterval(showimage,1000);
