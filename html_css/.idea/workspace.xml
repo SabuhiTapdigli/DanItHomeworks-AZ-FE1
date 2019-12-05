@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843f7d32-1462-4405-95bb-a25f02dcadc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javascript/Homework13/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javascript/Homework13/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javascript/Homework13/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3/css/sytle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homework3/css/sytle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework4/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework4/img/ic_caledar.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/img/ic_caledar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework4/img/ic_forum.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/img/ic_forum.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework4/img/ic_journey.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/img/ic_journey.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework4/img/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework5/First/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homework5/First/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework5/Second/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homework5/Second/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework5/Second/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework5/Second/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework6/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homework6/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework6/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +23,16 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1SN0Jz3ohDwYkng2l1SNJLMOEBp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../classwork/AZFE1_5-6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -111,6 +98,7 @@
       <workItem from="1572019507594" duration="360000" />
       <workItem from="1572070168238" duration="11620000" />
       <workItem from="1572153064705" duration="13823000" />
+      <workItem from="1575563022032" duration="614000" />
     </task>
     <servers />
   </component>
